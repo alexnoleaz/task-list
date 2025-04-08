@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Ajuste para las tareas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+/* Estilo para el input de tarea */
+input[type="text"] {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button.add-task {
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.add-task:hover {
+  background-color: #218838;
+}
+
+/* Estilo para cuando no hay tareas */
+p {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
